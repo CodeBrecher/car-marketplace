@@ -5,7 +5,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { db } from './../../../configs';
 import { CarImages, CarListing } from './../../../configs/schema'; 
 import { desc, eq } from 'drizzle-orm';
-import Service from './../../Data/service.jsx';
+import Service from '@/Data/Service';
 
 const { FormatResult } = Service;
 
