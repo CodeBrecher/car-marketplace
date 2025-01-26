@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Header } from '@/components/ui/header';
 import MyListing from './components/MyListing';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Inbox from './components/Inbox';
+//import Inbox from './components/Inbox';
 
 function Profile() {
     return (
@@ -36,7 +36,7 @@ function Profile() {
                     <TabsContent value="my-listing">
                         <MyListing />
                     </TabsContent>
-                    <TabsContent value="inbox"><Inbox/></TabsContent>
+                    <TabsContent value="inbox"></TabsContent>
                     <TabsContent value="profile">Change your password here.</TabsContent>
                 </Tabs>
             </div>
