@@ -4,7 +4,7 @@ import CarDetails from './../Data/CarDetails.json';
 import InputField from './Components/InputField';
 import DropdownField from './Components/DropdownField';
 import TextArea from './Components/TextArea';
-import features from './../Data/features.json';
+import features from '././../Data/features.json';
 import Checkbox from '@mui/material/Checkbox';
 import { Button } from '@mui/material';
 import { db } from './../../configs';
